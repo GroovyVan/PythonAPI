@@ -1,1 +1,4 @@
-print ("123 HI NoBoDy !@#$%^&*")
+import requests
+
+response = requests.get("https://playground.learnqa.ru/api/hello")
+print (response.text)
